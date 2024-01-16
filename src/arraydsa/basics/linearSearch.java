@@ -4,12 +4,12 @@ public class linearSearch {
     public static void main(String[] args) {
         int target = 3;
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int ans = linearSearch(arr, target);
+        int ans = linearSearchInArray(arr, target);
         System.out.println("The index value of target array is:"+ans);
 
     }
 
-    static int linearSearch(int[] arr, int target) {
+    static int linearSearchInArray(int[] arr, int target) {
         if (arr.length == 0) {
             return -1;
         }

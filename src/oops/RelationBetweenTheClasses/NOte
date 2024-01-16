@@ -1,0 +1,95 @@
+In Java we can represent classes in two types
+Relation between the classes :
+
+IS - A = Inheritance
+IS-A relation we can achieve by Inheritance Concept
+We use Inheritance to reuse code
+----------------------------------
+Class Developer1
+{
+  public void sum(int a , int b)
+  {
+  a+b;
+  }
+
+  public void sub(int a , int b)
+  {
+  a-b;
+  }
+}
+
+
+if we want developer2 using the same code like in developer1 is using
+then  developer2 is writing the same code twice as it lead to code redundency
+by doing so the code will be larger and complex to understand
+here the concept comes code reusability from the oops concept inheritance
+we can use that concept to reuse the same code to reduce the code redendency
+as because both code are same it leads to duplication procees time and compile time will waste
+
+
+Java provides extends keyword -- to inherit the properties from another class
+for Eg;
+Class Developer2 extends  Developer1
+{
+  public void mul(int a ,int b){
+    a*b;
+  }
+}
+public void  div(int a,int b)
+{
+    public void div(int a,int b){
+    a/b;
+    }
+}
+
+Developer1 = Parent class Or Base Class Or Super Class
+Developer2 = child class or Derived class or sub class
+
+we should always reuse the code rather than re create.
+
+this is the biggest feature in opps
+Inheritance :
+Deriving a new class (child class) from existing class (parent class) in such a way
+that the new class will acquire all the properties and features (expect
+
+is a relation is tightly coupled relation so if we modify the super class content sub class content will
+ reflect
+
+ for ex;
+ Class Vehicle{
+ int horn = 1;
+ }
+ class Car extends Vehicle
+ {
+
+ }
+
+ class Nexon extends Car
+ {
+ //if in car class horn is changed here also changes
+
+ }
+
+
+ Inheritance provides us hierarchical classification of classes ,In this hierarchy
+ if we move towards upwards direction more generalized properties will occur,
+ on the other hand it we move towards downward more specialized properties will occur.
+
+ generalized -- when we move upwards we can find suppose someone said he bought a vehcile
+ it doesn't mean which vehicle like truck bus car doesnt confrim we need to move from
+ upwards we can find
+
+ specialized -- when we move downward we can confirm its a car from vehicle class
+
+
+Java is having 4 types of inheritance
+1) single level inheritance
+2) muti
+
+
+Has -A =Association
+Has -A relation we can achieve by Association Concept
+
+
+
+

@@ -1,0 +1,46 @@
+to differentiate the parent class and child class
+variable we use super keyword
+
+Class A
+{
+int  x = 100;
+}
+Class B extends A
+{
+   int x =200;
+    public B(){
+    System.out.println(x);
+   }
+}
+class a has x variable and class b has x variable
+how to difference this
+we create a new Nameless obj or Anonymous object
+new B(); when we declare the new obj and access the x variable
+it will normally execute the same class x variable of 200
+suppose if we want to access the class A x value of 100 How?
+we have super keyword in
+ int x = 200;
+ public B (){
+ System.out.println(super.x);
+ }
+ so, super keyword here print the A class x variable which is 100
+
+//super keyword is useful when super class variable or method in subclass variable or method is having conflict
+// we use super keyword which one to print we have to use super keyword
+
+super keyword can be used in 3 ways in java:
+
+1)to call the super class variable
+   When ever super class variable name and sub class variable name both are same
+   and if we create an object for the sub class
+to call the super class method
+to call the super class Constructor
+
+
+
+
+
+
+
+}
+

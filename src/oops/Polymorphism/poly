@@ -1,0 +1,52 @@
+poly means many
+morphism means forms
+ polymorphism means manyforms
+
+like in in real life
+knife can used to be as a vegetable cutter
+as well it can used to harm any one any threat...
+
+here knife is acting like two forms like wise in oops one method or constructor can we in mmany forms
+
+there are two types of polymorphism
+1) compile time polymorphism or static polymorphism or Early binding
+method name same parameters should be different
+2) Run time polymorphism / Dynamic polymorphism / Late Binding
+dyanmic polymorphism :
+dynamic polymorphism which exist at run time is called dynamic polymorphism
+it is also called as dynamic method dispatch.
+->depending up on the parameter compiler will know which method to invoke in static binding
+-> jvm will decide the which method to run in runtime compiler will have no idea regarding method calling
+->depending up on the class type.
+method overloading for static polymorphism
+
+-> Example :
+Method overriding
+class{
+    public void show(){
+    System.out.println("super class show method");
+    }
+}
+class Sub extends Super{
+if there is no inheritance there is no method overloading
+using co-variant we can change return type in overriding
+method signature mean method name with parameters
+        public void show(){
+        System.out.println("Sub Class show method");
+        }
+}
+
+Writing two or more methods in super or subclass in such a way that
+method name along with its parameter(Method signatue) must be same.
+
+Generally we cannot change the return type of the method while overriding a method but
+by using the co-variant concept we can change the return type of the method.
+
+upcasting :
+---------------------
+Super s = new Super();
+A super class refernce varaible can hold the obj of subclass
+
+
+
+

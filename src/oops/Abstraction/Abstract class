@@ -1,0 +1,72 @@
+Abstract class is a unimplemented class
+We cannot make abstract class as final
+
+While abstract class is unimplemented and it needs to implemented in its child class
+in order to implement in its child class we dont make abstract method or class as final
+INTERVIEW QUESTION
+
+Why can't we make abstract class as a final ?
+ANS: abstract class mean's it has unimplemented methods some other class  should inherit and give the
+     implementation and the moment we use the final keyword to a class it will not participate in the
+     inheritance and no one can give  implementation.
+
+Why can't we make abstract method as final ?
+Abstract method means it is unimplemented method there is no implementation some one have to inherit and
+should implement its implementation and if you make it as final there is no chance of override ...
+so it is a illegal combination...
+
+
+An abstract class can have a constructor . this constructor would be invoked using super() call present in
+the child class constructor.
+constructor cannot be abstract because in every constructor we have either super() or this().
+
+
+Final Keyword...
+final keyword can be applied to a class.
+final class would not participate in inheritance(We cannot extend final class).
+final class can have a parent class however a final class cannot be a parent or super class.
+final keyword can be applied to a method.
+final keyword do get inherited in child/sub class. However, we cannot override them. (final methods cannot
+be overridden in child class)
+final keyword can be applied at a variable
+final variables behaves like a constant. In other words we cannot change the value of final/constant variables.
+We cannot make abstract class as final. (bcz no one can inherit abstract class and provide the implementation hence
+it's illegal to use abstract and final)
+we cannot make abstract method as final. (bcz if abstract method is final none of the child class can provide implementation)
+
+INTERVIEW QUESTION
+
+what is method hiding ?
+when ever we try to override the static method it will not override it will act as a specialized method  of child class
+and it shows the child class static method
+
+==================================================================
+STATIC
+
+static variables memory will be allocated on Heap area during class loading it self ( class loader subsystem
+preparation ) Jvm would also initialize default value to static variable at this stage.
+
+static block will be executed during class loading itself (class loading --> Initialization)
+
+If there are few statements to be executed even before main method we can use static block.
+
+Static variables memory will be allocated only once in heap area during class loading. When ever we have common copy of
+data which has to be shared among all the object of a class then we must use static variable as memory will be allocated
+only once and same copy of data will be used among all objects of a class.
+
+Java Instance Initialization block will be executed during the object creation before the body of  constructor.
+
+Static methods can be invoked directly with class name. Also it can be invoked using reference of Object also
+
+when ever we have any common statements which must be executed  for every constructor we can include that within a java
+ Instance initialization block (Java block)
+
+ Instance initialization block can be used to initialize the instance variables.
+
+ Static methods do get inherited (We can inherit static methods)
+
+ When ever we try to override static method in Child Class it will hide the parent class static method it will behave
+ like a specialized method ofo child class (overridden would not occur here). we cannot override the static method in
+  child class
+
+

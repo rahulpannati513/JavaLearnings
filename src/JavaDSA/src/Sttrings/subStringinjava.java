@@ -1,4 +1,4 @@
-package Sttrings;
+package JavaDSA.src.Sttrings;
 
 public class subStringinjava {
     public static void main(String[] args) {

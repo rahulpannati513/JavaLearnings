@@ -1,4 +1,4 @@
-package HuffmanCoding;
+package JavaDSA.src.HuffmanCoding;
 
 class Main {
     public static void main(String[] args) throws Exception{

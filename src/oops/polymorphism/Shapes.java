@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package oops.Polymorphism;
 
 public class Shapes {
     void area(){

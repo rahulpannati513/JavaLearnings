@@ -1,4 +1,4 @@
-package HuffmanCoding;
+package JavaDSA.src.HuffmanCoding;
 
 import java.util.*;
 
@@ -41,7 +41,7 @@ class hc {
             }
         }
 
-        Heap<Node> minHeap = new Heap<>();
+        HuffmanCoding.Heap<Node> minHeap = new HuffmanCoding.Heap<>();
         Set<Map.Entry<Character, Integer>> entrySet = fmap.entrySet();
 
         for(Map.Entry<Character, Integer> entry : entrySet) {

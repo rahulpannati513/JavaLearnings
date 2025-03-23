@@ -1,4 +1,4 @@
-package HuffmanCoding;
+package JavaDSA.src.HuffmanCoding;
 import java.util.ArrayList;
 
 public class Heap<T extends Comparable<T>>{

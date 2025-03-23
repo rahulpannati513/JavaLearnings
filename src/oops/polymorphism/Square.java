@@ -1,6 +1,6 @@
-package oops.polymorphism;
+package oops.Polymorphism;
 
-public class Square extends Shapes{
+public class Square extends Shapes {
     void area(){
         System.out.println(" area is side * side");
     }
